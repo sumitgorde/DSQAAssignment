@@ -56,7 +56,7 @@ Open terminal, browse to root directory of project, run the test suite:
 
 ## Test Report screenshot
 
-<img width="1237" alt="screen shot 2018-10-14 at 8 51 24 pm" src="https://user-images.githubusercontent.com/14192186/46919748-5dad8e00-d001-11e8-959a-5c68a0b17a93.png">
+![capture](https://user-images.githubusercontent.com/45860684/53211486-39119480-3639-11e9-87ab-7c8eab143690.PNG)
 
 
 ## Test Report Location
