@@ -5,7 +5,7 @@
 ## Start the tests
 Open terminal, browse to root directory of project, run the test suite:
 
-mvn clean install test -Dtest=TestSuiteClass
+	mvn clean install test -Dtest=TestSuiteClass
 
 ## Test Cases/ Scenarios
   - Rest API Tests : Validate GET and DELETE Methods
