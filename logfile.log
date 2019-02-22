@@ -1,0 +1,67 @@
+2019-02-22 00:11:08,688 INFO  [RestApiTests] Start com.ds.tests.RestApiTests.listOfAllRegisteredUsers 
+2019-02-22 00:11:09,754 INFO  [RestApiTests] End com.ds.tests.RestApiTests.listOfAllRegisteredUsers 
+2019-02-22 00:11:09,759 INFO  [RestApiTests] Start com.ds.tests.RestApiTests.deleteAllUsers 
+2019-02-22 00:11:10,009 INFO  [RestApiTests] End com.ds.tests.RestApiTests.deleteAllUsers 
+2019-02-22 00:11:10,647 INFO  [NewUserGenericTests] Start com.ds.tests.NewUserGenericTests.verifyCreateUserSubmitUsingEnterKey 
+2019-02-22 00:11:14,357 INFO  [NewUserGenericTests] End com.ds.tests.NewUserGenericTests.verifyCreateUserSubmitUsingEnterKey 
+2019-02-22 00:11:14,365 INFO  [NewUserGenericTests] Start com.ds.tests.NewUserGenericTests.verifyCreateUserByAllFieldsBlank 
+2019-02-22 00:11:16,067 INFO  [NewUserGenericTests] End com.ds.tests.NewUserGenericTests.verifyCreateUserByAllFieldsBlank 
+2019-02-22 00:11:16,071 INFO  [NewUserGenericTests] Start com.ds.tests.NewUserGenericTests.verifyCreateUserByEnteringValidCredentials 
+2019-02-22 00:11:19,888 INFO  [NewUserGenericTests] End com.ds.tests.NewUserGenericTests.verifyCreateUserByEnteringValidCredentials 
+2019-02-22 00:11:19,896 INFO  [NewUserGenericTests] Start com.ds.tests.NewUserGenericTests.verifyPageRefreshAfterFieldsEntry 
+2019-02-22 00:11:21,330 INFO  [NewUserGenericTests] End com.ds.tests.NewUserGenericTests.verifyPageRefreshAfterFieldsEntry 
+2019-02-22 00:11:21,334 INFO  [EmailFieldTests] Start com.ds.tests.EmailFieldTests.createNewUser 
+2019-02-22 00:11:21,650 INFO  [EmailFieldTests] Email :: elena.rice@hotmail.com 
+2019-02-22 00:11:23,508 INFO  [EmailFieldTests] End com.ds.tests.EmailFieldTests.createNewUser 
+2019-02-22 00:11:23,512 INFO  [EmailFieldTests] Start com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutAtSymbolInEmail 
+2019-02-22 00:11:23,806 INFO  [EmailFieldTests] Email :: asdck.com 
+2019-02-22 00:11:25,997 INFO  [EmailFieldTests] End com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutAtSymbolInEmail 
+2019-02-22 00:11:26,001 INFO  [EmailFieldTests] Start com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithExistingEmail 
+2019-02-22 00:11:26,233 INFO  [EmailFieldTests] Email :: madge.rogahn@hotmail.com 
+2019-02-22 00:11:27,822 INFO  [EmailFieldTests] End com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithExistingEmail 
+2019-02-22 00:11:27,826 INFO  [EmailFieldTests] Start com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutdotcomInEmail 
+2019-02-22 00:11:27,982 INFO  [EmailFieldTests] Email :: asc@wer 
+2019-02-22 00:11:29,450 INFO  [EmailFieldTests] End com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutdotcomInEmail 
+2019-02-22 00:11:29,454 INFO  [EmailFieldTests] Start com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutPrefixInEmail 
+2019-02-22 00:11:29,650 INFO  [EmailFieldTests] Email :: @testData.com 
+2019-02-22 00:11:31,190 INFO  [EmailFieldTests] End com.ds.tests.EmailFieldTests.verifyCreatingNewUserWithoutPrefixInEmail 
+2019-02-22 00:11:31,190 INFO  [EmailFieldTests] Leaving UserCreationEmailFieldTests 
+2019-02-22 00:11:31,194 INFO  [NameFieldTests] Start com.ds.tests.NameFieldTests.createNewUser 
+2019-02-22 00:11:31,318 INFO  [NameFieldTests] Email aisha.ritchie@yahoo.com 
+2019-02-22 00:11:33,220 INFO  [NameFieldTests] End com.ds.tests.NameFieldTests.createNewUser 
+2019-02-22 00:11:33,220 INFO  [NameFieldTests] Start verifyCreatingNewUserWithBlankName() 
+2019-02-22 00:11:33,220 INFO  [NameFieldTests] Email  
+2019-02-22 00:11:34,568 INFO  [NameFieldTests] End com.ds.tests.NameFieldTests.verifyCreatingNewUserWithBlankName 
+2019-02-22 00:11:34,568 INFO  [NameFieldTests] Leaving NewUserCreationNameFieldTests 
+2019-02-22 00:11:34,736 INFO  [PasswordFieldTests] Email chance.bauch@gmail.com 
+2019-02-22 00:11:36,281 INFO  [PasswordFieldTests] Start com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithValidPwdFieldAndBlankCnfPasswordField 
+2019-02-22 00:11:36,497 INFO  [PasswordFieldTests] Email zackery.walker@yahoo.com 
+2019-02-22 00:11:38,073 INFO  [PasswordFieldTests] End com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithValidPwdFieldAndBlankCnfPasswordField 
+2019-02-22 00:11:38,077 INFO  [PasswordFieldTests] Start com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithBlankPwdFieldAndValidCnfPasswordField 
+2019-02-22 00:11:38,329 INFO  [PasswordFieldTests] Email muhammad.rau@gmail.com 
+2019-02-22 00:11:39,841 INFO  [PasswordFieldTests] End com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithBlankPwdFieldAndValidCnfPasswordField 
+2019-02-22 00:11:39,841 INFO  [PasswordFieldTests] Start com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithValidPwdFieldAndDifferentCnfPasswordField 
+2019-02-22 00:11:40,090 INFO  [PasswordFieldTests] Email ashlee.towne@gmail.com 
+2019-02-22 00:11:41,708 INFO  [PasswordFieldTests] End com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithValidPwdFieldAndDifferentCnfPasswordField 
+2019-02-22 00:11:41,708 INFO  [PasswordFieldTests] Start com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithPasswordMinLength 
+2019-02-22 00:11:41,859 INFO  [PasswordFieldTests] Email rey.littel@hotmail.com 
+2019-02-22 00:11:43,319 INFO  [PasswordFieldTests] End com.ds.tests.PasswordFieldTests.verifyCreatingNewUserWithPasswordMinLength 
+2019-02-22 00:11:43,319 INFO  [PasswordFieldTests] Leaving NewUserCreationPasswordFieldTests 
+2019-02-22 00:11:43,323 INFO  [TestConfig] Entering into AllUsersPageTest 
+2019-02-22 00:11:43,539 INFO  [TestConfig] Email created :: herminio.okon@hotmail.com 
+2019-02-22 00:11:45,321 INFO  [TestConfig] Email created :: leilani.johnston@yahoo.com 
+2019-02-22 00:11:47,194 INFO  [TestConfig] Email created :: carlee.bahringer@yahoo.com 
+2019-02-22 00:11:49,223 INFO  [TestConfig] Email created :: carson.douglas@hotmail.com 
+2019-02-22 00:11:51,433 INFO  [TestConfig] Email created :: sister.kuvalis@gmail.com 
+2019-02-22 00:11:53,242 INFO  [TestConfig] Start com.ds.tests.UserListPageTest.verifyAllUserPageHeader 
+2019-02-22 00:11:53,910 INFO  [TestConfig] End com.ds.tests.UserListPageTest.verifyAllUserPageHeader 
+2019-02-22 00:11:53,914 INFO  [TestConfig] Start com.ds.tests.UserListPageTest.verifyCreateUserButtonDisplay 
+2019-02-22 00:11:54,562 INFO  [TestConfig] End com.ds.tests.UserListPageTest.verifyCreateUserButtonDisplay 
+2019-02-22 00:11:54,562 INFO  [TestConfig] Start com.ds.tests.UserListPageTest.verifyUsersTableSize 
+2019-02-22 00:11:55,028 INFO  [TestConfig] Total users :: [{"name":"Dudley Borer","email":"madge.rogahn@hotmail.com","password":"e9zc8kxvwbxvxep","id":8028},{"name":"Tyrique Jaskolski II","email":"ralph.gibson@hotmail.com","password":"ljqfhu","id":8029},{"name":"Rebecca Langworth","email":"elena.rice@hotmail.com","password":"1i8xvl60hvx","id":8030},{"name":"Danika Stracke","email":"aisha.ritchie@yahoo.com","password":"a9dicyl4edm2","id":8031},{"name":"Darren Luettgen","email":"chance.bauch@gmail.com","password":"y2elrn3ve","id":8032},{"name":"Remington Blick","email":"herminio.okon@hotmail.com","password":"ba8b3pdx9j02c","id":8033},{"name":"Rebecca Walsh","email":"leilani.johnston@yahoo.com","password":"zegjxy09kqdyaf","id":8034},{"name":"Quinn Tillman","email":"carlee.bahringer@yahoo.com","password":"mglcfn45g1t","id":8035},{"name":"Amelia Swaniawski","email":"carson.douglas@hotmail.com","password":"9iyx4qcpuu0s","id":8036},{"name":"Horacio Runolfsdottir","email":"sister.kuvalis@gmail.com","password":"a0qoh6w3ce7j1sjmd","id":8037}] 
+2019-02-22 00:11:56,369 INFO  [TestConfig] End com.ds.tests.UserListPageTest.verifyUsersTableSize 
+2019-02-22 00:11:56,369 INFO  [TestConfig] Start com.ds.tests.UserListPageTest.verifyUsersCreatedListedAtTheLastRow 
+2019-02-22 00:11:56,617 INFO  [TestConfig] Email created :: reina.krajcik@gmail.com 
+2019-02-22 00:11:59,855 INFO  [TestConfig] End com.ds.tests.UserListPageTest.verifyUsersCreatedListedAtTheLastRow 
+2019-02-22 00:11:59,855 INFO  [TestConfig] Leaving AllUsersPageTest 
+2019-02-22 00:11:59,855 INFO  [TestConfig] =====Browser Session Ended===== 
