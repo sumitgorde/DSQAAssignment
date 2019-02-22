@@ -7,39 +7,57 @@ Open terminal, browse to root directory of project, run the test suite:
 
 mvn clean install test -Dtest=TestSuiteClass
 
-## Test Cases
+## Test Cases/ Scenarios
   - Rest API Tests : Validate GET and DELETE Methods
-  - UserListPageTest.java : All Users page tests 
-  - EmailFieldTests.java : Test class for email field
-  - NameFieldTests.java : Test class for name field
-  - PasswordFieldTests.java : Test class for password field
+  	- listOfAllRegisteredUsers
+	- deleteAllUsers
+  - UserListPageTest.java : All Users page validations
+  	- verifyAllUserPageHeader
+	- verifyCreateUserButtonDisplay
+	- verifyUsersTableSize
+	- verifyUsersCreatedListedAtTheLastRow
+  - EmailFieldTests.java : Email field validations
+	- verifyCreatingNewUserWithoutAtSymbolInEmail
+	- verifyCreatingNewUserWithExistingEmail
+	- verifyCreatingNewUserWithoutdotcomInEmail
+	- verifyCreatingNewUserWithoutPrefixInEmail
+  - NameFieldTests.java : Name field validations
+  	- verifyCreatingNewUserWithBlankName
+  - PasswordFieldTests.java : Password field validations
+	- verifyCreatingNewUserWithValidPwdFieldAndBlankCnfPasswordField
+	- verifyCreatingNewUserWithBlankPwdFieldAndValidCnfPasswordField
+	- verifyCreatingNewUserWithValidPwdFieldAndDifferentCnfPasswordField
+	- verifyCreatingNewUserWithPasswordMinLength
   - NewUserGenericTests.java : Test class for generic new user tests
+	- verifyCreateUserSubmitUsingEnterKey
+	- verifyCreateUserByAllFieldsBlank
+	- verifyCreateUserByEnteringValidCredentials
+	- verifyPageRefreshAfterFieldsEntry
                                     
+## Framework
+ - Maven build tool, maintaining all the library definition in pom 
+ - Page Object Model design pattern for maintaining the separate class for each feature
+ - Page Factory Model for defining and locating web elements
+ - Rest Assured and Selenium webdriver libraries to drive API and UI automation.
+ - javafaker to generate the fake test data.
+ - Log4j logger for defining and logging events
+ - Extentreport for reporting
 
 ## Libraries:
 
 - JUnit 4.9
 - selenium-java Client 3.14.0
 - webdrivermanager 3.0.0
+- javafaker 0.16
 - extentreports 2.41.2
 - log4j 1.2.17
 - org.json 20180813
-
-
 
 ## Requirements
 
 - Chrome browser to be installed (chromeDriver =>2.30)
 - Maven 3.0 installed
 - Selenium webdriver installed
-
-## Framework
- - Maven build tool, maintaining all the library definition in pom 
- - Page Object Model design pattern for maintaining the separate class for each feature
- - Page Factory Model for defining and locating web elements
- - Logforj logger for defining and logging events
- - Extentreport for effective reporting
-
 
 ## Java
  -java version "1.8.0_112"
@@ -51,7 +69,6 @@ mvn clean install test -Dtest=TestSuiteClass
 Open terminal, browse to root directory of project, run the test suite:
 
 	mvn clean install test -Dtest=TestSuiteClass
-
 
 
 ## Test Report screenshot
